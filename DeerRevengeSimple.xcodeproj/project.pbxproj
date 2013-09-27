@@ -35,6 +35,7 @@
 		A84754BB17F5457F00E33855 /* antler.png in Resources */ = {isa = PBXBuildFile; fileRef = A84754B417F5457F00E33855 /* antler.png */; };
 		A84754BC17F5457F00E33855 /* antlerpng.png in Resources */ = {isa = PBXBuildFile; fileRef = A84754B517F5457F00E33855 /* antlerpng.png */; };
 		A84754BD17F5457F00E33855 /* hunter.png in Resources */ = {isa = PBXBuildFile; fileRef = A84754B617F5457F00E33855 /* hunter.png */; };
+		A84754C117F54B2900E33855 /* landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = A84754C017F54B2900E33855 /* landscape.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		A84754B417F5457F00E33855 /* antler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = antler.png; path = ../../antler.png; sourceTree = "<group>"; };
 		A84754B517F5457F00E33855 /* antlerpng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = antlerpng.png; path = ../../antlerpng.png; sourceTree = "<group>"; };
 		A84754B617F5457F00E33855 /* hunter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hunter.png; path = ../../hunter.png; sourceTree = "<group>"; };
+		A84754C017F54B2900E33855 /* landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = landscape.png; path = ../../landscape.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		A847545B17F50C1100E33855 = {
 			isa = PBXGroup;
 			children = (
+				A84754C017F54B2900E33855 /* landscape.png */,
 				A84754B017F5457E00E33855 /* antler@2x.png */,
 				A84754B117F5457E00E33855 /* hunter@2x.png */,
 				A84754B217F5457E00E33855 /* deer@2x.png */,
@@ -289,6 +292,7 @@
 				A84754BD17F5457F00E33855 /* hunter.png in Resources */,
 				A84754B717F5457F00E33855 /* antler@2x.png in Resources */,
 				A84754A917F512E500E33855 /* sprites.atlas in Resources */,
+				A84754C117F54B2900E33855 /* landscape.png in Resources */,
 				A84754A717F512E500E33855 /* background-music-aac.caf in Resources */,
 				A84754BC17F5457F00E33855 /* antlerpng.png in Resources */,
 				A84754BA17F5457F00E33855 /* deer.png in Resources */,

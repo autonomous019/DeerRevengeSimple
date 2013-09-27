@@ -42,7 +42,12 @@ static inline CGPoint rwNormalize(CGPoint a) {
         NSLog(@"Size: %@", NSStringFromCGSize(size));
         
         // 3
-        self.backgroundColor = [SKColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0];
+        
+        
+        SKSpriteNode *landscape = [SKSpriteNode spriteNodeWithImageNamed:@"landscape"];
+        landscape.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame));
+        [self addChild:landscape];
+        //self.backgroundColor = [SKColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0];
         
         // 4
         self.player = [SKSpriteNode spriteNodeWithImageNamed:@"deer"];
